@@ -1,6 +1,6 @@
 import type { MetaFunction, LoaderFunction, LinksFunction } from "@remix-run/node";
 import { useFetcher, useLoaderData } from "@remix-run/react";
-import SearchAndFilterForm from "../components/searchAndFilterForm";
+import SearchAndFilterForm from "../components/SearchAndFilterForm";
 import PokemonList from "../components/PokemonList";
 
 import { getPokemons, getPokemonByName } from "~/api/pokemon";
